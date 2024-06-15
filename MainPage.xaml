@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="ERepetition.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ERepetition"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="AliceBlue">
+       
+        
+        <NavigationView x:Name="MyNavigationView" ItemInvoked="MyNavigationView_ItemInvoked" IsBackEnabled="True" 
+BackRequested="MyNavigationView_BackRequested"   >
+            
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Audio" Content="Repeat Centence" x:Name="Repeat" />
+                <NavigationViewItem Icon="Preview"  Content="Review by listening" x:Name="Review" />
+                <NavigationViewItem Icon="Admin"  Content="AuthorTeam"
+x:Name="AuthorTeam" />
+                <NavigationViewItem Icon="AllApps" Content="App Information"
+x:Name="AppInfor" />
+
+                
+            </NavigationView.MenuItems >
+            <NavigationView.Content>
+                <Frame x:Name="ContentFrame" />
+            </NavigationView.Content>
+            
+
+        </NavigationView>
+        
+    </Grid>
+</Page>
