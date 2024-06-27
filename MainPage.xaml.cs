@@ -46,11 +46,11 @@ sender, NavigationViewItemInvokedEventArgs args)
             {
                 ContentFrame.Navigate(typeof(Repeat));
             }
-            else if (selectedItem == Review)
+            
+            else if (selectedItem == Learning)
             {
-                ContentFrame.Navigate(typeof(Review));
+                ContentFrame.Navigate(typeof(Learning));
             }
-
         }
         private void MyNavigationView_BackRequested(Windows.UI.Xaml.Controls.NavigationView sender,NavigationViewBackRequestedEventArgs args)
         {

@@ -12,16 +12,15 @@
 
         <Grid.Background>
             <ImageBrush Opacity="1"   ImageSource ="/Assets/blue_abstract.jpg" />
-
         </Grid.Background>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center"
-VerticalAlignment="Center">
-            <TextBlock TextAlignment="Center" Text="ENG REPITITION APP " Width="1000" Height="100" FontSize="60" FontStyle="Oblique" FontWeight="Bold" Foreground="Orange"  />
-            <TextBlock TextAlignment="Center" Text="BY ENGLISH TEAM " Width="1000" Height="100" FontSize="50" FontStyle="Oblique" FontWeight="Bold" Foreground="Orange" />
-            <TextBlock Foreground="White" Text="Leader: Doan Nhat Ninh 21200325" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
-            <TextBlock Foreground="White" Text="assistant: Ly Minh Man 21200311" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
-            <TextBlock Foreground="White" Text="Backend: Nguyen Cong Minh 21200313" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
-            <TextBlock Foreground="White" Text="Frontend: Nguyen Thanh Loc 21200309" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
+VerticalAlignment="Center" Width="778">
+            <TextBlock TextAlignment="Center" Text="ENG REPITITION APP " Width="744" Height="100" FontSize="60" FontStyle="Oblique" FontWeight="Bold" Foreground="Orange"  />
+            <TextBlock TextAlignment="Center" Text="BY ENGLISH TEAM " Width="704" Height="100" FontSize="50" FontStyle="Oblique" FontWeight="Bold" Foreground="Orange" />
+            <TextBlock Foreground="White" Text="Nguyen Thanh Loc 21200309" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
+            <TextBlock Foreground="White" Text="Ly Minh Man 21200311" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
+            <TextBlock Foreground="White" Text="Nguyen Cong Minh 21200313" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
+            <TextBlock Foreground="White" Text="Doan Nhat Ninh 21200325" Width="1000"  Margin="5" Height="100" FontSize="30" FontStyle="Oblique" FontWeight="Bold"/>
         </StackPanel>
 
 

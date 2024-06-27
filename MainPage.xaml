@@ -8,24 +8,29 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="AliceBlue">
-       
-        
+    <Grid >
+
+
+        <Grid.Background>
+            <ImageBrush Opacity="1"   ImageSource ="/Assets/blue_abstract.jpg" />
+        </Grid.Background>
         <NavigationView x:Name="MyNavigationView" ItemInvoked="MyNavigationView_ItemInvoked" IsBackEnabled="True" 
-BackRequested="MyNavigationView_BackRequested"   >
+BackRequested="MyNavigationView_BackRequested"    >
             
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Audio" Content="Repeat Centence" x:Name="Repeat" />
-                <NavigationViewItem Icon="Preview"  Content="Review by listening" x:Name="Review" />
-                <NavigationViewItem Icon="Admin"  Content="AuthorTeam"
-x:Name="AuthorTeam" />
-                <NavigationViewItem Icon="AllApps" Content="App Information"
-x:Name="AppInfor" />
+                <NavigationViewItem Icon="Audio" Content="Repeat Centence" x:Name="Repeat" Background="AliceBlue" Foreground="Black" BorderBrush="Black"/>
 
-                
+                <NavigationViewItem Icon="Admin"  Content="AuthorTeam" Background="AliceBlue" Foreground="Black"  BorderBrush="Black"
+x:Name="AuthorTeam" />
+                <NavigationViewItem Icon="AllApps" Content="App Information" Background="AliceBlue" Foreground="Black"  BorderBrush="Black"
+x:Name="AppInfor" />
+                <NavigationViewItem Icon="Preview" Content="Learning" Background="AliceBlue" Foreground="Black"  BorderBrush="Black"
+x:Name="Learning" />
+
+            
             </NavigationView.MenuItems >
             <NavigationView.Content>
-                <Frame x:Name="ContentFrame" />
+                <Frame x:Name="ContentFrame" HorizontalAlignment="Right" Width="1180" />
             </NavigationView.Content>
             
 
